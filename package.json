@@ -1,6 +1,6 @@
 {
   "name": "antd-jalali-plus",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "A wrapper for ant-design datepicker and calendar to support Jalali calendar type with dayjs.",
   "keywords": [
     "ant",
@@ -13,12 +13,11 @@
     "khorshidi",
     "ant5"
   ],
-  "author": "MasoudIT",
-  "homepage": "https://github.com/masoudit/antd-jalali",
+  "homepage": "https://github.com/masoudit/antd-jalali-plus",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/masoudit/antd-jalali"
+    "url": "https://github.com/masoudit/antd-jalali-plus"
   },
   "main": "lib/cjs/index.cjs.js",
   "module": "lib/esm/index.js",
@@ -30,6 +29,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build:demo": "react-scripts build",
+    "run:demo": "serve -s ./build -p 5010",
     "ts-declaration": " tsc -p ./tsconfig.lib.json --emitDeclarationOnly --outDir lib/types",
     "build": "rimraf lib && node ./esbuild.js && npm run ts-declaration"
   },

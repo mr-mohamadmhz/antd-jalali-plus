@@ -1,12 +1,20 @@
 
 # Ant-Design Jalali DatePicker
-A wrapper for ant-design date picker and calendar to support Jalali calendar type with [Day.js](https://github.com/iamkun/dayjs) and [jalaliday](https://github.com/alibaba-aero/jalaliday)
+Ant Design Jalali/Shamsi calendar DatePicker and RangePicker (Support Ant design v5 and v4). [Day.js](https://github.com/iamkun/dayjs) and [jalaliday](https://github.com/alibaba-aero/jalaliday)
+
+# Demo
+https://masoudit.github.io/antd-jalali-plus
+
+## Top Features
+- Support Ant Design Version 5
+- Support React 16/17/18
+- Fix All RTL Issues
 
 #### Note:
-antd-jalali-plus is a forked and upgraded version of [antd-jalali](https://www.npmjs.com/package/antd-jalali), which was a valuable tool but is no longer maintained.
+**antd-jalali-plus** is a forked and upgraded version of [antd-jalali](https://www.npmjs.com/package/antd-jalali), which was a valuable tool but is no longer maintained.
 
 #### Purpose:
-The primary goal of antd-jalali-plus is to ensure that users who rely on the functionality of antd-jalali continue to have access to a reliable and supported solution with latest version of [Ant design](https://ant.design/). By taking over maintenance responsibilities, We are committed to providing timely updates, bug fixes, and improvements to enhance the overall usability and stability of the package.
+The primary goal of **antd-jalali-plus** is to ensure that users who rely on the functionality of **antd-jalali** continue to have access to a reliable and supported solution with latest version of [Ant design](https://ant.design/). By taking over maintenance responsibilities, We are committed to providing timely updates, bug fixes, and improvements to enhance the overall usability and stability of the package.
 
 ## Ant version 5.x.x
 ```
@@ -21,6 +29,10 @@ npm i antd-jalali-plus@v1.3.x
 ## Installation
 ```
 npm i antd-jalali-plus
+```
+or 
+```
+yarn antd-jalali-plus
 ```
 
 ## Usage
@@ -80,3 +92,9 @@ const jalaliDate = date.calendar('jalali')
 ```
 
 You can read more information about daysjs jalali on [jalaliday repo](https://github.com/alibaba-aero/jalaliday).
+
+## Contributors
+<a href="https://github.com/masoudit">
+<img src="https://github.com/masoudit.png" width="60px;"/></a></sub>
+<a href="https://github.com/hamidrezaghanbari">
+<img src="https://github.com/hamidrezaghanbari.png" width="60px;"/></a>
