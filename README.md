@@ -1,5 +1,5 @@
 
-# Ant-Design Jalali DatePicker
+# Ant-Design Jalali/Hijri DatePicker (Ant 4/5)
 Ant Design Jalali/Shamsi calendar DatePicker and RangePicker (Support Ant design v5 and v4). [Day.js](https://github.com/iamkun/dayjs) and [jalaliday](https://github.com/alibaba-aero/jalaliday)
 
 # Demo
