@@ -1,6 +1,6 @@
 {
   "name": "antd-jalali-plus",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "A wrapper for ant-design datepicker and calendar to support Jalali calendar type with dayjs.",
   "keywords": [
     "ant",
@@ -13,13 +13,11 @@
     "khorshidi",
     "ant5"
   ],
-  "author": "MasoudIT",
-  "contributors": [{"name": "Hamidreza Ghanbari", "email": "hamidrezaghanbari13@gmail.com", "url": "https://hamidreza-ghanbari.vercel.app"}],
-  "homepage": "https://github.com/masoudit/antd-jalali",
+  "homepage": "https://github.com/masoudit/antd-jalali-plus",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/masoudit/antd-jalali"
+    "url": "https://github.com/masoudit/antd-jalali-plus"
   },
   "main": "lib/cjs/index.cjs.js",
   "module": "lib/esm/index.js",
@@ -31,6 +29,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build:demo": "react-scripts build",
+    "run:demo": "serve -s ./build -p 5010",
     "ts-declaration": " tsc -p ./tsconfig.lib.json --emitDeclarationOnly --outDir lib/types",
     "build": "rimraf lib && node ./esbuild.js && npm run ts-declaration"
   },
@@ -41,16 +40,16 @@
   },
   "peerDependencies": {
     "antd": "^5.16.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^17.0.39",
-    "@types/react-dom": "^17.0.13",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "antd": "^5.16.1",
     "esbuild": "^0.14.24",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "5.0.0",
     "typescript": "^5.4.5"
   },

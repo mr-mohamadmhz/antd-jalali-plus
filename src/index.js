@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 import { DatePicker, Space, Radio, ConfigProvider, Row, Col } from "antd";
 import fa_IR from "antd/lib/locale/fa_IR";
 import en_US from "antd/lib/locale/en_US";
@@ -9,7 +9,11 @@ import dayjs from "dayjs";
 const date = dayjs().calendar('jalali').locale('en').format('DD MMMM YYYY dddd');
 
 // If you want to all new instanses of dayjs use jalali calendar, you can set default calendar
-// dayjs.calendar("jalali");
+dayjs.extend(jalaliday)
+
+import jalaliday from "jalaliday";
+
+dayjs.calendar("jalali");
 
 import './index.css'
 
@@ -79,5 +83,6 @@ const App = () => {
   );
 };
 
-const domContainer = document.querySelector("#container");
-ReactDOM.render(React.createElement(App), domContainer);
+const container = document.getElementById('container');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+root.render(<App />);
