@@ -3,7 +3,7 @@
 Ant Design Jalali/Shamsi calendar DatePicker and RangePicker (Support Ant design v5 and v4). [Day.js](https://github.com/iamkun/dayjs) and [jalaliday](https://github.com/alibaba-aero/jalaliday)
 
 # Demo
-https://masoudit.github.io/antd-jalali-plus
+https://mr-mohamadmhz.github.io/antd-jalali-plus
 
 ## Top Features
 - Support Ant Design Version 5
@@ -94,7 +94,7 @@ const jalaliDate = date.calendar('jalali')
 You can read more information about daysjs jalali on [jalaliday repo](https://github.com/alibaba-aero/jalaliday).
 
 ## Contributors
-<a href="https://github.com/masoudit">
-<img src="https://github.com/masoudit.png" width="60px;"/></a></sub>
+<a href="https://github.com/mr-mohamadmhz">
+<img src="https://github.com/mr-mohamadmhz.png" width="60px;"/></a></sub>
 <a href="https://github.com/hamidrezaghanbari">
 <img src="https://github.com/hamidrezaghanbari.png" width="60px;"/></a>

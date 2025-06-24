@@ -1,6 +1,8 @@
-import { Dayjs } from "dayjs";
-import { generateJalaliConfig } from "../jalali";
+import moment, { Moment } from "jalali-moment";
 import generatePicker from "antd/es/date-picker/generatePicker";
+import { generateJalaliConfig } from "../jalali";
 
-const DatePicker: any = generatePicker<Dayjs>(generateJalaliConfig);
+// استفاده از Moment به جای Dayjs
+const DatePicker = generatePicker<Moment>(generateJalaliConfig);
+
 export default DatePicker;
